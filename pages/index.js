@@ -37,6 +37,7 @@ const IndexParticles = () => {
                       target="_blank" rel="noreferrer"
                       className="px-btn px-btn-theme"
                       href="https://drive.google.com/file/d/1K8dVlD-sUfj_HKqU9AjgCWm-xdMwtvPj/view?usp=sharing"
+
                     >
                       Donwload CV
                     </a>
