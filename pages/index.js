@@ -1,4 +1,4 @@
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import Image from "next/image"
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
@@ -6,9 +6,9 @@ import Contact from "../src/components/Contact";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
-const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
-  ssr: false,
-});
+// const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
+//   ssr: false,
+// });
 const IndexParticles = () => {
   return (
     <Layout>
@@ -45,7 +45,7 @@ const IndexParticles = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <Image src="/static/img/profile.png" title="" alt="" width={200} height={200} />
+                  <Image src="/static/img/profile.png" title="" alt="" width={420} height={420} layout="intrinsic" />
                 </div>
               </div>
             </div>

@@ -1,12 +1,11 @@
 import { Fragment } from "react";
-import ImageView from "../components/ImageView";
 import BackBtn from "./BackBtn";
 import DayNightMood from "./DayNightMood";
 import Header from "./Header";
 const Layout = ({ children, blog }) => {
   return (
     <Fragment>
-      <ImageView />
+      {/* <ImageView /> */}
       {/* page loading */}
       {/* End */}
       {/* Header Start */}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"
 
 const Blog = () => {
   return (
@@ -16,15 +17,15 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://b10services.com/" target="_blank" rel="noreferrer">
-                  <img
-                    src="static/img/projects/B10-Services.png"
+                  <Image
+                    src="/static/img/projects/B10-Services.png"
                     title=""
-                    alt=""
+                    alt="" width={450} height={250} layout="intrinsic"
                   />
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">Web Development | Portfolio</div>
+                <div className="meta">Website | Portfolio</div>
                 <h6>
                   <Link href="https://b10services.com/" target="_blank" rel="noreferrer">
                     B10 Services
@@ -44,17 +45,17 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://satvikfresh.in/" target="_blank" rel="noreferrer">
-                  <img src="static/img/projects/satvik.png" title="" alt="" />
+                  <Image src="/static/img/projects/satvik.png" title="" alt="" width={450} height={250} layout="intrinsic" />
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">Web Development | E-Commerce</div>
+                <div className="meta">Website | E-Commerce</div>
                 <h6>
                   <Link href="https://satvikfresh.in/" target="_blank" rel="noreferrer">
                     Satvik Fresh
                   </Link>
                   <div className="meta mt-2">
-                    Oil Product"s E-Commerce Portal
+                    Oil Product&apos;s E-Commerce Portal
                   </div>
                 </h6>
                 <div className="meta2">
@@ -68,11 +69,11 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://poshmarkinteriors.com/" target="_blank" rel="noreferrer">
-                  <img src="static/img/projects/poshmark.png" title="" alt="" />
+                  <Image src="/static/img/projects/poshmark.png" title="" alt="" width={450} height={250} layout="intrinsic" />
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">Web Development | Portfolio</div>
+                <div className="meta">Website | Portfolio</div>
                 <h6>
                   <Link href="https://poshmarkinteriors.com/" target="_blank" rel="noreferrer">
                     Poshmark Interiors
@@ -92,16 +93,16 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://tourism.nmc.gov.in/" target="_blank" rel="noreferrer">
-                  <img
-                    src="static/img/projects/nashik-tourism.png"
+                  <Image
+                    src="/static/img/projects/nashik-tourism.png"
                     title=""
-                    alt=""
+                    alt="" width={450} height={250} layout="intrinsic"
                   />
                 </Link>
               </div>
               <div className="blog-info">
                 <div className="meta">
-                  Web Development | Sponsored by Nashik Municipal Corporation
+                  Website | Sponsored by Nashik Municipal Corporation
                 </div>
                 <h6>
                   <Link href="https://tourism.nmc.gov.in/" target="_blank" rel="noreferrer">
@@ -122,16 +123,16 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://mazabappa.nmc.gov.in/" target="_blank" rel="noreferrer">
-                  <img
-                    src="static/img/projects/maza-bappa.png"
+                  <Image
+                    src="/static/img/projects/maza-bappa.png"
                     title=""
-                    alt=""
+                    alt="" width={450} height={250} layout="intrinsic"
                   />
                 </Link>
               </div>
               <div className="blog-info">
                 <div className="meta">
-                  Web Development| E-Commerce | Sponsored by Nashik Municipal
+                  Website| E-Commerce | Sponsored by Nashik Municipal
                   Corporation
                 </div>
                 <h6>
@@ -139,7 +140,7 @@ const Blog = () => {
                     Get Bappa @Doorstep
                   </Link>
                   <div className="meta mt-2">
-                    Shadu Mati Ganesh Idol"s E-Commerce Portal
+                    Shadu Mati Ganesh Idol&apos;s E-Commerce Portal
                   </div>
                 </h6>
                 <div className="meta2">
@@ -153,17 +154,17 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://navamisheetal.com/" target="_blank" rel="noreferrer">
-                  <img src="static/img/projects/Navami.png" title="" alt="" />
+                  <Image src="/static/img/projects/Navami.png" title="" alt="" width={450} height={250} layout="intrinsic" />
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">Web Development | Portfolio</div>
+                <div className="meta">Website | Portfolio</div>
                 <h6>
                   <Link href="https://navamisheetal.com/" target="_blank" rel="noreferrer">
                     Navami Sheetal
                   </Link>
                   <div className="meta mt-2">
-                    Astrologer"s Portfolio & Appointment based System
+                    Astrologer&apos;s Portfolio & Appointment based System
                   </div>
                 </h6>
                 <div className="meta2">

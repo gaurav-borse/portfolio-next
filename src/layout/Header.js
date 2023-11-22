@@ -1,20 +1,21 @@
 import Link from "next/link";
+import Image from "next/image"
 import { Fragment, useEffect, useState } from "react";
-import { activeSection } from "../utilits";
+// import { activeSection } from "../utilits";
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
-  useEffect(() => {
-    if (!blog) {
-      activeSection();
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (!blog) {
+  //     activeSection();
+  //   }
+  // }, []);
   return (
     <Fragment>
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/" legacyBehavior>
-              <a className="logo-text">Sergio</a>
+              <a className="logo-text">Gaurav Borse</a>
             </Link>
           </div>
           <button
@@ -37,7 +38,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/profile.png" title="" alt="" />
+                <Image src="/static/img/profile2.png" title="" alt="" width={100} height={100} layout="intrinsic" />
               </div>
               <h5>Gaurav Borse</h5>
             </div>
