@@ -18,7 +18,6 @@ const IndexParticles = () => {
         className="pp-section pp-scrollable"
       >
         <div className="home-banner">
-          {/* <div id="particles-box" className="particles" /> */}
           <ParticlesBackground />
           <div className="container">
             <div className="row full-screen align-items-center">
@@ -30,7 +29,7 @@ const IndexParticles = () => {
                     I Am Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
-                    India-based developer who"s into web development and open to
+                    India-based developer who&apos;s into web development and open to
                     work as a full stack web developer.
                   </p>
                   <div className="btn-bar">
