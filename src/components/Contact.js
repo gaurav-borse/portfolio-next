@@ -159,10 +159,11 @@ const Contact = () => {
                       className="text-success"
                       style={{
                         display:
-                          error !== null ? (!error ? "block" : "none") : "none",
+                          error !== null ? (!error ? "block" : "none") : "none", paddingTop: '15px', color: '#2fbf71', fontWeight: '600',
                       }}
                     >
-                      Message Sent Successfully
+                      {/* Message Sent Successfully */}
+                      Your message has landed safely in my inbox. I&apos;ll get back to you soon.
                     </span>
                     <span
                       id="err_message"
