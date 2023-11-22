@@ -61,7 +61,7 @@ const Contact = () => {
             <div className="contact-info">
               <h4>Interested in working together? Get in touch</h4>
               <p>
-                I'm always available for any queries/ideas/projects, Feel free
+                I&apos;m always available for any queries/ideas/projects, Feel free
                 to contact me. I am always open for discussion.
               </p>
               <ul>
@@ -82,7 +82,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
-              <h4>Let"s Connect</h4>
+              <h4>Let&apos;s Connect</h4>
               <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
                   <div className="col-md-6">
