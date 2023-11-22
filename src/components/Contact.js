@@ -24,10 +24,10 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_0istt3l", // service id
+          "template_2l58z1u", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "pLP9kM8gG8p1zxyW5" // public api
         )
         .then(
           (response) => {
@@ -73,11 +73,6 @@ const Contact = () => {
                   <i className="ti-email" />
                   <span className="media-body">gborse108@gmail.com</span>
                 </li>
-                {/* <li className="media">
-                  <i className="ti-mobile" />
-                  <span className="media-body">+044 9696 9696 3636</span>
-                </li> */}
-                {/* Hello */}
               </ul>
             </div>
           </div>
