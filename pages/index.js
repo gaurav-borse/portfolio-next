@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import Image from 'next/image'
+import Image from "next/image"
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
