@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image'
 import { useEffect, useState } from "react";
 import Layout from "../src/layout/Layout";
 import { getPagination, pagination } from "../src/utilits";
@@ -25,7 +26,7 @@ const Blog = () => {
                 <div className='blog-img'>
                   <Link href='/single-blog' legacyBehavior>
                     <a>
-                      <img src='static/img/blog-1.jpg' title='' alt='' />
+                      <Image src='static/img/blog-1.jpg' title='' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -47,7 +48,7 @@ const Blog = () => {
                 <div className='blog-img'>
                   <Link href='/single-blog' legacyBehavior>
                     <a>
-                      <img src='static/img/blog-2.jpg' title='' alt='' />
+                      <Image src='static/img/blog-2.jpg' title='' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -69,7 +70,7 @@ const Blog = () => {
                 <div className='blog-img'>
                   <Link href='/single-blog' legacyBehavior>
                     <a>
-                      <img src='static/img/blog-3.jpg' title='' alt='' />
+                      <Image src='static/img/blog-3.jpg' title='' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -91,7 +92,7 @@ const Blog = () => {
                 <div className='blog-img'>
                   <Link href='/single-blog' legacyBehavior>
                     <a>
-                      <img src='static/img/blog-6.jpg' title='' alt='' />
+                      <Image src='static/img/blog-6.jpg' title='' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -112,7 +113,7 @@ const Blog = () => {
                 <div className='blog-img'>
                   <Link href='/single-blog' legacyBehavior>
                     <a>
-                      <img src='static/img/blog-5.jpg' title='' alt='' />
+                      <Image src='static/img/blog-5.jpg' title='' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -133,7 +134,7 @@ const Blog = () => {
                 <div className='blog-img'>
                   <Link href='/single-blog' legacyBehavior>
                     <a>
-                      <img src='static/img/blog-4.jpg' title='' alt='' />
+                      <Image src='static/img/blog-4.jpg' title='' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -183,9 +184,8 @@ const Blog = () => {
                   </li>
                 ))}
                 <li
-                  className={`page-item ${
-                    active == state.length ? "disabled" : ""
-                  }`}
+                  className={`page-item ${active == state.length ? "disabled" : ""
+                    }`}
                 >
                   <a
                     className='page-link'

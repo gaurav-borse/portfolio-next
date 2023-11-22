@@ -48,105 +48,101 @@ const Contact = () => {
   };
   return (
     <section
-      id='contactus'
-      data-nav-tooltip='Contact Me'
-      className='pp-section pp-scrollable section dark-bg'
+      id="contactus"
+      data-nav-tooltip="Contact Me"
+      className="pp-section pp-scrollable section dark-bg"
     >
-      <div className='container'>
-        <div className='title'>
+      <div className="container">
+        <div className="title">
           <h3>Get in touch.</h3>
         </div>
-        <div className='row'>
-          <div className='col-lg-5 col-xl-4 m-15px-tb'>
-            <div className='contact-info'>
+        <div className="row">
+          <div className="col-lg-5 col-xl-4 m-15px-tb">
+            <div className="contact-info">
               <h4>Interested in working together? Get in touch</h4>
               <p>
                 I'm always available for any queries/ideas/projects, Feel free
                 to contact me. I am always open for discussion.
               </p>
               <ul>
-                <li className='media'>
-                  <i className='ti-map' />
-                  <span className='media-body'>Pune, India - 422041</span>
+                <li className="media">
+                  <i className="ti-map" />
+                  <span className="media-body">Pune, India - 422041</span>
                 </li>
-                <li className='media'>
-                  <i className='ti-email' />
-                  <span className='media-body'>gborse108@gmail.com</span>
+                <li className="media">
+                  <i className="ti-email" />
+                  <span className="media-body">gborse108@gmail.com</span>
                 </li>
-                {/* <li className='media'>
-                  <i className='ti-mobile' />
-                  <span className='media-body'>+044 9696 9696 3636</span>
+                {/* <li className="media">
+                  <i className="ti-mobile" />
+                  <span className="media-body">+044 9696 9696 3636</span>
                 </li> */}
               </ul>
             </div>
           </div>
-          <div className='col-lg-7 col-xl-8 m-15px-tb'>
-            <div className='contact-form'>
-              <h4>Let's Connect</h4>
-              <form id='contact-form' onSubmit={(e) => onSubmit(e)}>
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
+          <div className="col-lg-7 col-xl-8 m-15px-tb">
+            <div className="contact-form">
+              <h4>Let"s Connect</h4>
+              <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
                       <input
-                        name='name'
+                        name="name"
                         onChange={(e) => onChange(e)}
                         value={name}
-                        id='name'
-                        placeholder='Name *'
-                        className={`form-control ${
-                          error ? (!name ? "invalid" : "") : ""
-                        }`}
-                        type='text'
+                        id="name"
+                        placeholder="Name *"
+                        className={`form-control ${error ? (!name ? "invalid" : "") : ""
+                          }`}
+                        type="text"
                       />
                     </div>
                   </div>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
+                  <div className="col-md-6">
+                    <div className="form-group">
                       <input
-                        name='email'
+                        name="email"
                         onChange={(e) => onChange(e)}
                         value={email}
-                        id='email'
-                        placeholder='Email *'
-                        className={`form-control ${
-                          error ? (!email ? "invalid" : "") : ""
-                        }`}
-                        type='email'
+                        id="email"
+                        placeholder="Email *"
+                        className={`form-control ${error ? (!email ? "invalid" : "") : ""
+                          }`}
+                        type="email"
                       />
                     </div>
                   </div>
-                  <div className='col-12'>
-                    <div className='form-group'>
+                  <div className="col-12">
+                    <div className="form-group">
                       <input
-                        name='subject'
+                        name="subject"
                         onChange={(e) => onChange(e)}
                         value={subject}
-                        id='subject'
-                        placeholder='Subject *'
-                        className={`form-control ${
-                          error ? (!subject ? "invalid" : "") : ""
-                        }`}
-                        type='text'
+                        id="subject"
+                        placeholder="Subject *"
+                        className={`form-control ${error ? (!subject ? "invalid" : "") : ""
+                          }`}
+                        type="text"
                       />
                     </div>
                   </div>
-                  <div className='col-md-12'>
-                    <div className='form-group'>
+                  <div className="col-md-12">
+                    <div className="form-group">
                       <textarea
-                        name='message'
+                        name="message"
                         onChange={(e) => onChange(e)}
                         value={message}
-                        id='message'
-                        placeholder='Your message *'
+                        id="message"
+                        placeholder="Your message *"
                         rows={5}
-                        className={`form-control ${
-                          error ? (!message ? "invalid" : "") : ""
-                        }`}
+                        className={`form-control ${error ? (!message ? "invalid" : "") : ""
+                          }`}
                       />
                     </div>
                   </div>
-                  <div className='col-md-12'>
-                    <div className='send'>
+                  <div className="col-md-12">
+                    <div className="send">
                       {/* <button
                         onSubmit={(e) => onSubmit(e)}
                         className="px-btn px-btn-theme"
@@ -157,14 +153,14 @@ const Contact = () => {
                         send message
                       </button> */}
                       <input
-                        className='px-btn px-btn-theme'
-                        type='submit'
-                        value='send message'
+                        className="px-btn px-btn-theme"
+                        type="submit"
+                        value="send message"
                       />
                     </div>
                     <span
-                      id='suce_message'
-                      className='text-success'
+                      id="suce_message"
+                      className="text-success"
                       style={{
                         display:
                           error !== null ? (!error ? "block" : "none") : "none",
@@ -173,8 +169,8 @@ const Contact = () => {
                       Message Sent Successfully
                     </span>
                     <span
-                      id='err_message'
-                      className='text-danger'
+                      id="err_message"
+                      className="text-danger"
                       style={{ display: "none" }}
                     >
                       Message Sending Failed
@@ -184,13 +180,13 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          {/* <div className='col-12'>
-            <div className='google-map'>
-              <div className='embed-responsive embed-responsive-21by9'>
+          {/* <div className="col-12">
+            <div className="google-map">
+              <div className="embed-responsive embed-responsive-21by9">
                 <iframe
-                  className='embed-responsive-item'
-                  src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883'
-                  allowFullScreen=''
+                  className="embed-responsive-item"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
+                  allowFullScreen=""
                 />
               </div>
             </div>

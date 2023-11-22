@@ -3,7 +3,7 @@ import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import ParticlesBackground from "../src/components/ParticlesBackground";
-// import Services from "../src/components/Services";
+import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
   ssr: false,
@@ -26,7 +26,7 @@ const IndexParticles = () => {
                   <h6>Hello, I'm</h6>
                   <h1 className='font-alt'>Gaurav Borse</h1>
                   <p className='lead'>
-                    I Am Passionate <span id='type-it' />
+                    I Am Passionate <TypingAnimation />
                   </p>
                   <p className='desc'>
                     India-based developer who's into web development and open to
