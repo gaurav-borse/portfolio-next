@@ -30,6 +30,19 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', '${gtag.GA_TRACKING_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
 
         <title>Portfolio | Gaurav Borse</title>
 
@@ -88,6 +101,10 @@ function MyApp({ Component, pageProps }) {
           rel='stylesheet'
         />
       </Head>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
       {load && <PreLoader />}
       <Component {...pageProps} />
     </Fragment>
