@@ -59,6 +59,10 @@ const Blog = () => {
                   </div>
                 </h6>
                 <div className="meta2">
+                  {/* <div class="techstack">
+                    <span>HTML5</span>
+                  </div> */}
+
                   <b>Techstack &mdash;</b> Frontend: HTML5, CSS3, BT, JS;
                   Backend: PHP-CodeIgniter; Database: MySQL, PhpMyAdmin
                 </div>
