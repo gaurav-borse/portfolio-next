@@ -1,9 +1,25 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
+import Script from "next/script";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
 import "../styles/globals.css";
+import * as gtag from "../lib/gtag";
+
 function MyApp({ Component, pageProps }) {
+  // for Google Analytics
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   const [load, setLoad] = useState(true);
   useEffect(() => {
     setTimeout(() => {
