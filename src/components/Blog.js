@@ -32,11 +32,11 @@ const Blog = () => {
 
                   <h6>
                     <Link href={data.link} target="_blank" rel="noreferrer">
-                      {data.name} {data.status === 'Under Development' && (
-                        <span className="custom-badge">Under Development</span>
-                      )}
-                      {/* <span className="badge badge-pill m-1 underdev">Under Development</span> */}
+                      {data.name}
                     </Link>
+                    {data.status === 'Under Development' && (
+                      <span className="custom-badge">Under Development</span>
+                    )}
                     <div className="meta mt-2" style={{ fontWeight: "200" }}>
                       {data.meta}
                     </div>
