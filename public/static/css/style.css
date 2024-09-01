@@ -124,11 +124,33 @@ mark {
 }
 
 .techstack span {
-  color: #fff;
+  color: #db1d1d;
   font-family: 'Arial', sans-serif;
   font-size: 14px;
   font-weight: 600;
   z-index: 2;
+}
+
+.techstack1 {
+  border: 0.5px solid #2fbf71 !important;
+  font-weight: 300 !important;
+  font-size: 11px !important;
+  padding: 5px 8px 5px 8px;
+  border-radius: 30px;
+  margin: 0 5px;
+}
+
+.custom-badge {
+  display: inline-block;
+  border: 0.5px solid #ffcc00 !important;
+  color: white;
+  font-size: 10px;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  margin-left: 0.1rem;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
 }
 
 /* ----------------------

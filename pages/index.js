@@ -21,12 +21,12 @@ const IndexParticles = () => {
           <ParticlesBackground />
           <div className="container">
             <div className="row full-screen align-items-center">
-              <div className="col-lg-6">
+              <div className="col-lg-10">
                 <div className="type-box">
                   <h6>Hello, I&apos;m</h6>
-                  <h1 className="font-alt">Gaurav Borse</h1>
+                  <h1 className="font-alt ">Gaurav Rajendra Borse</h1>
                   <p className="lead">
-                    I Am Passionate <TypingAnimation />
+                    I am Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
                     India-based developer who&apos;s into web development and open to
@@ -36,7 +36,7 @@ const IndexParticles = () => {
                     <a
                       target="_blank" rel="noreferrer"
                       className="px-btn px-btn-theme"
-                      href="https://drive.google.com/file/d/1K8dVlD-sUfj_HKqU9AjgCWm-xdMwtvPj/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1ijlnAHdcr7OEEbKej4Tw5o-cn2-b4GbI/view?usp=drive_link"
 
                     >
                       Donwload CV
@@ -44,11 +44,11 @@ const IndexParticles = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div className="hb-img">
                   <Image src="/static/img/profile.png" title="" alt="" width={420} height={420} layout="intrinsic" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

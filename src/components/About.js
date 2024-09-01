@@ -12,7 +12,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <Image src="/static/img/MyPhoto.png" title="" alt="" width={450} height={470} layout="intrinsic" />
+                  <Image src="/static/img/MyPhoto.png" title="" alt="" width={450} height={470} layout="intrinsic" style={{ borderRadius: "7px" }} />
                 </div>
               </div>
             </div>
@@ -78,17 +78,17 @@ const About = () => {
           <div className="col-lg-4 m-15px-tb">
             <ul className="aducation-box">
               <li>
-                <span>2021-2024</span>
+                <span>Jun 2021 – Aug 2024</span>
                 <h6>B.E. - Information Technology</h6>
                 <p>Zeal College of Engineering and Research</p>
               </li>
               <li>
-                <span>2017-2021</span>
+                <span>Mar 2017 – Mar 2021</span>
                 <h6>Diploma - Computer Engineering</h6>
                 <p>Government Polytechnic, Nashik</p>
               </li>
               <li>
-                <span>2016</span>
+                <span>2016 - 2017</span>
                 <h6>10th</h6>
                 <p>G. S. High School, Amalner</p>
               </li>
@@ -105,8 +105,18 @@ const About = () => {
               </p>
               <div className="skill-lt">
                 <h6>
-                  <b>Frontend Development:</b> React.js, HTML5, CSS3, Bootstrap,
-                  JavaScript, JQuery, TypeScript
+                  <b>Languages:</b> Python, PHP, C, C++, DSA, OOPs
+                </h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "78%" }}>
+                    <span data-toggle="tooltip" title="78%" />
+                  </div>
+                </div>
+              </div>
+              <div className="skill-lt">
+                <h6>
+                  <b>Frontend Development:</b> React.js, HTML5, CSS3, Bootstrap 5,
+                  Tailwind CSS, JavaScript, jQuery, TypeScript
                 </h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "90%" }}>
@@ -118,7 +128,7 @@ const About = () => {
               <div className="skill-lt">
                 <h6>
                   <b>Backend Development:</b> Python&mdash;Django,
-                  PHP&mdash;Codeigniter{" "}
+                  PHP&mdash;Codeigniter, NodeJs
                 </h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "85%" }}>
@@ -129,7 +139,7 @@ const About = () => {
               {/* /skill */}
               <div className="skill-lt">
                 <h6>
-                  <b>Database Management:</b> MySQL, PhpMyAdmin
+                  <b>Database Management:</b> MySQL, PhpMyAdmin, MongoDB
                 </h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "80%" }}>
@@ -140,7 +150,7 @@ const About = () => {
               {/* /skill */}
               <div className="skill-lt">
                 <h6>
-                  <b>Version Control:</b> Git, GitHub
+                  <b>CICD Deployment:</b> TeamCity, Octopus
                 </h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "90%" }}>
@@ -148,7 +158,26 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              <div className="skill-lt">
+                <h6>
+                  <b>Web Hosting</b>
+                </h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "99%" }}>
+                    <span data-toggle="tooltip" title="99%" />
+                  </div>
+                </div>
+              </div>
+              <div className="skill-lt">
+                <h6>
+                  <b>Wordpress, Shopify</b>
+                </h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "85%" }}>
+                    <span data-toggle="tooltip" title="85%" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -166,23 +195,23 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Full Stack Web Developer @EvolvingX</h6>
+                  <h6>Full Stack Web Development Intern @EvolvingX</h6>
                   <label>Remote | Jul 2023 - Present</label>
                   <div className="rb-time">Part Time</div>
                   <div legacyBehavior>
                     <ul>
                       <li>
-                        Currently interning at EvolvingX, where I am actively
-                        learning and implementing EvolvingX methodologies.
+                        Currently intern at EvolvingX, where I am actively learning and
+                        implementing EvolvingX methodologies.
+
                       </li>
                       <li>
-                        Engaging in Design Thinking practices to solve complex
-                        problems and improve user experiences.
+                        Engaging in Design Thinking practices to solve complex problems and
+                        improve user experiences.
                       </li>
                       <li>
-                        Gaining practical experience in System Design,
-                        contributing to the development of efficient and
-                        scalable software solutions.
+                        Gaining practical experience in System Design, contributing to the
+                        development of efficient and scalable software solutions.
                       </li>
                     </ul>
                   </div>
@@ -199,7 +228,7 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Full Stack Web Developer @Shout In&Out</h6>
+                  <h6>Full Stack Web Development Intern @Shout In&Out</h6>
                   <label>Remote | Sep 2021 - Jan 2023</label>
                   <div className="rb-time">Part Time</div>
                   <div legacyBehavior>
@@ -234,7 +263,7 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Web Developer @Dream Designers</h6>
+                  <h6>Web Development Intern @Dream Designers</h6>
                   <label>Remote | Sep 2020 - Jan 2021</label>
                   <div className="rb-time">Part Time</div>
                   <div legacyBehavior>
