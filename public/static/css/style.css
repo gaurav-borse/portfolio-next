@@ -2200,4 +2200,27 @@ mark {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/* Scrollbar Custome */
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #fff; */
+  background: #212223;
+  /* background: #18191a; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2fbf71;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2fbf71;
+}

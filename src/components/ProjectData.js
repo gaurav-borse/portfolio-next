@@ -30,7 +30,7 @@ const ProjectList = [
         status: 'Under Development'
     },
     {
-        id: 1,
+        id: 3,
         tags: 'Dynamic Informative Website | Sponsored by Nashik Municipal Corporation',
         name: 'Nashik Tourism',
         meta: 'Informative Web Portal for Tourists who want to visit Nashik City',
@@ -44,7 +44,7 @@ const ProjectList = [
         made_at: 'Diploma final year project'
     },
     {
-        id: 2,
+        id: 4,
         tags: 'Website | E-Commerce | Sponsored by Nashik Municipal Corporation',
         name: 'Get Bappa @Doorstep',
         meta: 'Shadu Mati Ganesh Idols E-Commerce Portal',
@@ -58,7 +58,7 @@ const ProjectList = [
         made_at: 'Freelancing'
     },
     {
-        id: 3,
+        id: 5,
         tags: 'Website | Portfolio',
         name: 'SM Interiors',
         meta: 'Creative Interior Solution Portfolio',
@@ -72,7 +72,7 @@ const ProjectList = [
         made_at: 'Freelancing'
     },
     {
-        id: 4,
+        id: 6,
         tags: 'Website | Dynamic Portfolio',
         name: 'Poshmark Interiors',
         meta: 'An Interior & Exterior Design Agency',
@@ -86,7 +86,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 5,
+        id: 7,
         tags: 'Website | Dynamic Portfolio',
         name: 'Navami Sheetal',
         meta: 'Astrologers Portfolio & Appointment based System with payment gateway (Razorpay)',
@@ -100,7 +100,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 6,
+        id: 8,
         tags: 'Website | Portfolio',
         name: 'Malyn Global',
         meta: "Organic Food Import / Export",
@@ -114,7 +114,7 @@ const ProjectList = [
         made_at: 'Microdynamic Software'
     },
     {
-        id: 7,
+        id: 9,
         tags: 'Website | E-Commerce',
         name: 'Satvik Fresh',
         meta: "Oil Product's E-Commerce Portal",
@@ -128,7 +128,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 8,
+        id: 10,
         tags: 'Website | Portfolio',
         name: 'Dough Adventure',
         meta: "Innovative food processing startup's portfolio",
@@ -142,7 +142,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 9,
+        id: 11,
         tags: 'Website | Dynamic Portfolio',
         name: 'B10 Services',
         meta: 'Creative Service Agency Portfolio',
@@ -156,7 +156,7 @@ const ProjectList = [
         made_at: 'Freelancing'
     },
     {
-        id: 10,
+        id: 12,
         tags: 'Website | Dynamic Portfolio',
         name: 'Dr Gautam Shah',
         meta: "M.S. Orthopaedic Surgeon & Professor in Orthopaedic's portfolio",
@@ -170,7 +170,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 11,
+        id: 13,
         tags: 'Website | Portfolio',
         name: 'Anaveey Engineering Pvt. Ltd. - 2024',
         meta: "Engineering Product Manufacturer's portfolio",
@@ -184,7 +184,7 @@ const ProjectList = [
         made_at: 'Freelancing'
     },
     {
-        id: 12,
+        id: 14,
         tags: 'Website | Portfolio',
         name: 'Anaveey Engineering Pvt. Ltd. - 2023',
         meta: "Engineering Product Manufacturer's portfolio",
@@ -198,7 +198,7 @@ const ProjectList = [
         made_at: 'Freelancing'
     },
     {
-        id: 13,
+        id: 15,
         tags: 'Website | Concert Portfolio',
         name: 'RE:Chord - NYE 2022 Concert',
         meta: "NYE 2022 Concert Nagpur event portfolio",
@@ -212,7 +212,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 14,
+        id: 16,
         tags: 'Website | Portfolio',
         name: 'Surftech Systems',
         meta: "Industial Product Manufacturer's portfolio",
@@ -226,7 +226,7 @@ const ProjectList = [
         made_at: 'Microdynamic Software'
     },
     {
-        id: 15,
+        id: 17,
         tags: 'Website | Dynamic NGO Portfolio',
         name: 'Sahayata Foundation ',
         meta: "Non Governmental Organization's Portfolio with Donation & Payment Gateway (Razorpay)",
@@ -240,7 +240,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 16,
+        id: 18,
         tags: 'Website | Dynamic Portfolio',
         name: 'Astro Tours & Travels',
         meta: "International & Domestic Travel Service Provider's Portfolio",
@@ -254,7 +254,7 @@ const ProjectList = [
         made_at: 'Shout In&Out'
     },
     {
-        id: 17,
+        id: 19,
         tags: 'Website | Portfolio',
         name: 'Lucky Photo Studio',
         meta: "Photographer's Portfolio",
